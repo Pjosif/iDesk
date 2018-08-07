@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+D:\iDesk\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1528555753.index
+2485734638.index
+162589651.index
+888577135.index
+3110917205.index
+1243057733.index
+531511239.index
