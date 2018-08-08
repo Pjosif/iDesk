@@ -49,7 +49,7 @@
 					</tr>
 				</c:forEach>
 			</table>
-			<button type="button" class="btn btn-outline-primary">Add</button>
+			<a class="btn btn-outline-primary" href="add">Add</a>
 		</div>
 
 	</div>

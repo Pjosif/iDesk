@@ -8,6 +8,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.security.PersistanceConfiguration;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.support.AnnotationConfigContextLoader;
@@ -29,13 +30,14 @@ public class UserRepositoryPersitanceIntegrationTest {
 	
 	@Test
 	public final void whenRoleIsCreated_thenNoException() {
-		Roles role = new Roles("Admin");
+		Roles role = new Roles("ROLE_ADMIN");
 		roleRepo.save(role);
 	}
 	
 	@Test
 	public final void whenEntityIsCreated_thenNoException() {
-		Users user = new Users("Admin", "Admin", "admin@admin.com", "admin", "admin123", true);
+		BCryptPasswordEncoder encoder = new BCryptPasswordEncoder(11); 
+		Users user = new Users("Admin", "Admin", "admin@admin.com", "admin", encoder.encode("admin123"), true);
 		userRepo.save(user);
 	}
 	

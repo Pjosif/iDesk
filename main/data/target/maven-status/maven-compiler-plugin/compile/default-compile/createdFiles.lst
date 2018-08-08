@@ -1,0 +1,5 @@
+org\data\persistance\model\Roles.class
+org\data\persistance\model\Users.class
+org\data\persistance\repository\RoleRepository.class
+org\iDesk\data\App.class
+org\data\persistance\repository\UserRepository.class

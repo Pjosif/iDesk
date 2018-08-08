@@ -1,4 +1,4 @@
 #Tomcat publish data
-#Mon Aug 06 12:39:52 CEST 2018
+#Wed Aug 08 15:28:49 CEST 2018
 org.eclipse.jst.j2ee.server\:data=WEB-INF/lib/data-0.0.2-SNAPSHOT.jar
 org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\Josif\\.m2\\repository\\org\\springframework\\spring-web\\5.0.2.RELEASE\\spring-web-5.0.2.RELEASE.jar=WEB-INF/lib/spring-web-5.0.2.RELEASE.jar
