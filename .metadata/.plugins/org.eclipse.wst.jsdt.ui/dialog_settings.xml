@@ -10,6 +10,14 @@
 	<item value="0" key="org.eclipse.wst.jsdt.uiformatter_page.modify_dialog_tab_page.last_focus_index"/>
 	<item value="1" key="org.eclipse.wst.jsdt.uiformatter_page.line_wrapping_tab_page.last_category_index"/>
 	<item value="993" key="org.eclipse.wst.jsdt.uiformatter_pagemodify_dialog.preferred_width"/>
+	<section name="ProblemSeveritiesConfigurationBlock">
+		<item value="false" key="expanded2"/>
+		<item value="false" key="expanded1"/>
+		<item value="true" key="expanded0"/>
+	</section>
+	<section name="BuildPathsPropertyPage">
+		<item value="0" key="pageIndex"/>
+	</section>
 	<section name="completion_proposal_size">
 	</section>
 </section>

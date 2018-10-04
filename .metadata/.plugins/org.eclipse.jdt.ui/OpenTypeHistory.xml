@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=web/src\/test\/java&lt;org.iDesk.web{UserRepositoryPersitanceIntegrationTest.java[UserRepositoryPersitanceIntegrationTest" modifiers="1" timestamp="1533727961098"/>
+<typeInfo handle="=web/src\/test\/java&lt;org.iDesk.web{UserRepositoryPersitanceIntegrationTest.java[UserRepositoryPersitanceIntegrationTest" modifiers="1" timestamp="1537190300340"/>
+<typeInfo handle="=web/src\/main\/java&lt;org.security.controller{HomeController.java[HomeController" modifiers="1" timestamp="1537441676911"/>
+<typeInfo handle="=data/src\/main\/java&lt;org.data.persistance.repository{UserRepository.java[UserRepository" modifiers="513" timestamp="1536756663576"/>
+<typeInfo handle="=data/C:\/Users\/Josif\/.m2\/repository\/org\/springframework\/spring-context\/5.0.2.RELEASE\/spring-context-5.0.2.RELEASE.jar&lt;org.springframework.context.annotation(Role.class[Role" modifiers="9729" timestamp="1533636228457"/>
+<typeInfo handle="=data/src\/main\/java&lt;org.data.persistance.model{Roles.java[Roles" modifiers="1" timestamp="1537791358582"/>
 </typeInfoHistroy>

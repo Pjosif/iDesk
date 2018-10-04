@@ -1,0 +1,14 @@
+@charset "ISO-8859-1";
+
+.table-buttons {
+
+}
+
+.table-buttons a {
+	color: #343a40;
+}
+
+.table-inline {
+	display: inline-block;
+	margin-right: 5px;
+}
