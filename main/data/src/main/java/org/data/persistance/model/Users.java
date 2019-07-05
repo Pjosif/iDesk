@@ -1,6 +1,7 @@
 package org.data.persistance.model;
 
 import java.util.Collection;
+import java.util.List;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -11,6 +12,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 
@@ -59,6 +61,9 @@ public class Users {
 	@ManyToMany(fetch = FetchType.EAGER)
 	@JoinTable(name = "user_roles", joinColumns = @JoinColumn(name = "user_id", referencedColumnName = "id"), inverseJoinColumns = @JoinColumn(name = "role_id", referencedColumnName = "id"))
 	private Collection<Roles> roles;
+
+	@OneToMany(mappedBy = "createdBy")
+	private List<Customer> customers;
 
 	public Users() {
 		super();
@@ -139,6 +144,14 @@ public class Users {
 		this.roles = roles;
 	}
 
+	public List<Customer> getCustomers() {
+		return customers;
+	}
+
+	public void setCustomers(List<Customer> customers) {
+		this.customers = customers;
+	}
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -170,5 +183,4 @@ public class Users {
 				+ roles + "]";
 	}
 
-	
 }
